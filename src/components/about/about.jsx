@@ -37,13 +37,12 @@ const About = () => {
               <h2 className="mb-3">Who Am I?</h2>
               <p>
                 Hi, I'm <strong>Yewande Biobaku</strong>, a Front-End Web
-                Developer with over 2 years of experience. I have a strong foundation
-                in Computer Science and a passion for crafting clean,
+                Developer with over 2 years of experience. I have a passion for creating clean,
                 responsive, and accessible user interfaces. I enjoy turning
                 ideas into reality through code and design. I love building
                 interactive and visually appealing web experiences. I enjoy
                 working with JavaScript, React, and Vue.js to create dynamic,
-                user-friendly applications. Let’s build something awesome!
+                user-friendly applications. 
               </p>
             </div>
 
@@ -53,7 +52,7 @@ const About = () => {
                 I love learning and growing with every project. I believe in
                 clean code, user-first design, and building things that make a
                 difference. Whether working solo or in a team, I strive to
-                deliver with excellence.
+                deliver with excellence. Let’s build something awesome!
               </p>
             </div>
 
