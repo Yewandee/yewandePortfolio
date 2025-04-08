@@ -1,0 +1,31 @@
+/* .avatar{
+    width: 300px;
+    height: 300px;
+} */
+
+.blur-circle {
+    width: 200px;
+    height: 200px;
+    filter: blur(100px);
+    z-index: 0;
+  }
+  
+  @keyframes animate-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.25;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.35;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.25;
+    }
+  }
+  
+  .animate-pulse {
+    animation: animate-pulse 6s ease-in-out infinite;
+  }
+  

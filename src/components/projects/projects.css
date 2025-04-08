@@ -1,0 +1,77 @@
+.project-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card {
+  max-width: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-image-container {
+
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.tech-stack .tech-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin: 2px;
+}
+
+.btn-outline-primary {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+
+.project-entry {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 2rem;
+}
+
+.image-container {
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+.main-image,
+.hover-image {
+  transition: opacity 0.4s ease-in-out;
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.image-container:hover .main-image {
+  opacity: 0;
+}
+
+.features-list {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+
