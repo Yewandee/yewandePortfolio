@@ -18,8 +18,8 @@ const Home = () => {
       <div className="position-absolute top-100 start-100 translate-middle rounded-circle bg-primary opacity-75 blur-circle animate-pulse"></div>
 
       <div className="container">
-        <div className="row py-5 d-flex mb-5">
-          <div className="col-lg-6 text-center text-lg-start mt-5 ps-5">
+        <div className="row py-5 d-flex  mb-5">
+          <div className="col-lg-6  text-center text-lg-start mt-5 px-5">
             <h1 className="fw-bold display-6 pt-5">
               <Typewriter
                 words={["Hi, I'm Yewande Biobaku"]}
@@ -33,10 +33,12 @@ const Home = () => {
             </h1>
 
             <p className="lead mt-3" data-aos="fade-up">
-              I love building interactive and visually appealing web
-              experiences. I enjoy working with JavaScript, React, and Vue.js to
-              create dynamic, user-friendly applications. Let’s build something
-              awesome!
+              I'm a frontend developer who’s passionate about creating
+              interactive, user-first experiences that look great and work
+              seamlessly across all devices. From smooth animations to
+              responsive layouts and collaborative backend integration, I bring
+              ideas to life with clean, modern design. Let’s build something
+              remarkable together
             </p>
 
             <div className="mt-4 d-flex flex-column flex-sm-row gap-3">
