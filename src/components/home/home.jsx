@@ -41,13 +41,16 @@ const Home = () => {
 
             <div className="mt-4 d-flex flex-column flex-sm-row gap-3">
               <a
-                href="#"
+                href="/Yewande B. Biobaku cv.pdf"
                 className="btn btn-primary btn-lg"
                 data-aos="fade-up"
                 data-aos-duration="1000"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 See my Resume
               </a>
+
               <a
                 href="/contact-me"
                 className="btn btn-outline-light btn-lg"

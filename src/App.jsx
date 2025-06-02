@@ -11,7 +11,6 @@ import About from "./components/about/about";
 
 function App() {
 
-
   return (
     <>
     <Header/>
