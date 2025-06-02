@@ -32,7 +32,7 @@ const Home = () => {
               />
             </h1>
 
-            <p className="lead mt-3 fs-6" data-aos="fade-up">
+            <p className="lead mt-2 fs-6" data-aos="fade-up">
               I'm a frontend developer who’s passionate about creating
               interactive, user-first experiences that look great and work
               seamlessly across all devices. From smooth animations to
